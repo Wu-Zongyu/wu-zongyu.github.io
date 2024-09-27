@@ -73,8 +73,10 @@
     <span id="selected-tab" onclick="showSelected()" style="cursor:pointer; text-decoration:none;">Selected Publications</span> |
     <span id="full-tab" onclick="showFull()" style="cursor:pointer; text-decoration:none; color:rgb(106, 162, 212);">Full Publications</span>
 </h2> -->
+
+	
 <h2>
-    <span id="selected-tab" onclick="showSelected()" style="cursor:pointer; text-decoration:none;">Selected Publications</span>
+    <span>Selected Publications</span>
 </h2>
 <p>(* indicates equal contribution)</p>
 
@@ -100,9 +102,8 @@
     <ul>
         <li>
             Leveraging Catastrophic Forgetting to Develop Safe Diffusion Models against Malicious Finetuning<br>
-            Jiadong Pan, Hongcheng Gao, <b>Zongyu Wu</b>, Taihang Hu, Li Su, Liang Li, Qingming Huang<br>
+            Jiadong Pan*, Hongcheng Gao*, <b>Zongyu Wu</b>, Taihang Hu, Li Su, Liang Li, Qingming Huang<br>
             In <i>Proceedings of <b>NeurIPS</b> 2024</i> (<i><b><span style="color:red;">Spotlight</span></b></i>)<br>
-<!--             <a href="https://arxiv.org/pdf/2402.10882" target="blank">[Paper]</a> <a href="https://github.com/Wu-Zongyu/POSI" target="blank">[Code]</a><br> -->
         </li>
 	    
         <li>
@@ -112,7 +113,7 @@
             <a href="https://arxiv.org/pdf/2402.10882" target="blank">[Paper]</a> <a href="https://github.com/Wu-Zongyu/POSI" target="blank">[Code]</a><br>
         </li>
     </ul>
-</div>
+
 
  <h3>Journal Papers</h3>
     <ul>
@@ -124,75 +125,8 @@
             <a href="https://github.com/TimeLovercc/Awesome-Graph-Causal-Learning" target="blank">[Project Page]</a><br>
         </li>
     </ul>
-	
-<!-- Full Publications Section (Hidden by Default) -->
-<!-- <div id="full-publications" style="display:none;">
-    <h3>Preprints</h3>
-    <ul>
-        <li>
-            Robustness-Inspired Defense Against Backdoor Attacks on Graph Neural Networks<br>
-            Zhiwei Zhang, Minhua Lin, Junjie Xu, <b>Zongyu Wu</b>, Enyan Dai, Suhang Wang <br>      
-            <i>Arxiv 2406.09836</i><br>  
-            <a href="https://arxiv.org/pdf/2406.09836" target="blank">[Paper]</a><br>
-        </li>
-        <li>
-            LLM and GNN are Complementary: Distilling LLM for Multimodal Graph Learning<br>
-            Junjie Xu, <b>Zongyu Wu</b>, Minhua Lin, Xiang Zhang, Suhang Wang<br>             
-            <i>Arxiv 2406.01032</i><br>  
-            <a href="https://arxiv.org/pdf/2406.01032" target="blank">[Paper]</a><br>
-        </li>
-    </ul>
-
-    <h3>Journal Papers</h3>
-    <ul>
-        <li>
-            Counterfactual Learning on Graphs: A Survey<br>
-            Zhimeng Guo, <b>Zongyu Wu</b>, Teng Xiao, Charu Aggarwal, Hui Liu, Suhang Wang<br>     
-            <i>Machine Intelligence Research, 2024</i><br> 
-            <a href="https://arxiv.org/pdf/2304.01391" target="blank">[Paper]</a>
-            <a href="https://github.com/TimeLovercc/Awesome-Graph-Causal-Learning" target="blank">[Project Page]</a><br>
-        </li>
-    </ul>
-
-    <h3>Conference Papers</h3>	
-    <ul>
-        <li>
-            Leveraging Catastrophic Forgetting to Develop Safe Diffusion Models against Malicious Finetuning<br>
-            Jiadong Pan, Hongcheng Gao, <b>Zongyu Wu</b>, Taihang Hu, Li Su, Liang Li, Qingming Huang<br>
-            In <i>Proceedings of <b>NeurIPS</b> 2024</i> (<span style="color:red;">spotlight</span>)<br>
-<!--             <a href="https://arxiv.org/pdf/2402.10882" target="blank">[Paper]</a> <a href="https://github.com/Wu-Zongyu/POSI" target="blank">[Code]</a><br> -->
-        </li>
-	    
-
-        <li>
-            Universal Prompt Optimizer for Safe Text-to-Image Generation<br>
-            <b>Zongyu Wu*</b>, Hongcheng Gao*, Yueze Wang, Xiang Zhang, Suhang Wang<br>
-            In <i>Proceedings of <b>NAACL</b> 2024</i><br>
-            <a href="https://arxiv.org/pdf/2402.10882" target="blank">[Paper]</a> <a href="https://github.com/Wu-Zongyu/POSI" target="blank">[Code]</a><br>
-        </li>
-    </ul>
 </div>
-
-<script>
-function showSelected() {
-    document.getElementById("selected-publications").style.display = "block";
-    document.getElementById("full-publications").style.display = "none";
-    
-    // Change the color to indicate selected tab
-    document.getElementById("selected-tab").style.color = "#527bbd";
-    document.getElementById("full-tab").style.color = "rgb(106, 162, 212)";
-}
-
-function showFull() {
-    document.getElementById("selected-publications").style.display = "none";
-    document.getElementById("full-publications").style.display = "block";
-    
-    // Change the color to indicate selected tab
-    document.getElementById("selected-tab").style.color = "rgb(106, 162, 212)";
-    document.getElementById("full-tab").style.color = "#527bbd";
-}
-</script>
-	 -->
+	
 <h2>Education</h2>
 <ul>
  <li>
@@ -286,12 +220,12 @@ IEEE TKDE, ACM TIST, TMLR
     <li><p>Teaching Assistant, DS220: Data Management for Data Sciences, Fall 2024</p></li>
 </ul>
 
-<h2>Miscellaneous</h2>
+<!-- <h2>Miscellaneous</h2>
 <ul>
     <li><p>Sports: I enjoy working out in my free time. I am obsessed with soccer.</p></li>
     <li><p>Photography: I like to use my camera to capture beautiful moments.</p></li>
     <li><p>Games: I enjoy playing games such as CS2 (2000 hours+, plus CS GO) and Teamfight Tactics when time permits.</p></li>
-</ul>
+</ul> -->
 <!-- <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=LwfeN1V2BdEXg8qhrDn0aSSyx2RZ6qj62iESx154Elo&ct=ffffff'></script> -->
 </body>
 <div id="footer">
