@@ -29,7 +29,7 @@ body {
   padding-right: 50px;
   padding-top: 10px;
   padding-bottom: 30px;
-  max-width: 950px;
+  max-width: 925px;
   font-size: 16px;
 }
 
@@ -376,7 +376,7 @@ table.imgtable, table.imgtable td {
 
 .scroll-box-container {
  width: 100%; 
-  max-width: 950px;
+  max-width: 925px;
   height: 120px;
   overflow: hidden;
 }
